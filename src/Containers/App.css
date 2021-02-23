@@ -1,0 +1,161 @@
+@font-face {
+    font-family: 'icomoon';
+    src: url("../Components/fonts/icomoon/icomoon.eot?srf3rx");
+    src: url("../Components/fonts/icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"), url("../Components/fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"), url("../Components/fonts/icomoon/icomoon.woff?srf3rx") format("woff"), url("../Components/fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
+    font-weight: normal;
+    font-style: normal; 
+}
+body {
+  font-size: 1.5vw;
+}
+.zone {
+  border-right:1px solid #bbb;
+}
+.zone:hover {
+  box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+/* MAIN CONTENT STYLING  */
+.main-container {
+  position: relative;
+  z-index: 0;
+  margin-left: 18%;
+
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  /* padding-left: 3%; */
+
+}
+.main-content {
+  margin: 0;
+  padding-left: 2.5vw;
+  padding-right: 2vw;
+  padding-bottom: 10vw;
+  background-color: #8a8679;
+  background-image: url("../Components/img/Patterns/Dark/moulin_@2X.png");
+  background-size: auto;
+}
+section {
+  padding-top: 2vw;
+  padding-left: 3%;
+  padding-right: 2%;
+  padding-bottom: 10vw;
+}
+.footer {
+  padding: 5vw;
+}
+.section-header {
+  margin-left: 9vw;
+  margin-right: 9vw;
+  display: grid;
+  font-variant: small-caps;
+  justify-items: center;
+  margin-bottom: 8vw;
+  padding-top: 1.2vw;
+  padding-bottom: 2vw;
+  border-radius: 40px;
+  color: white;
+  text-shadow: 1px 2px 3px #000000,
+              0px 4px 6px white,
+              0px 6px 25px rgba(255, 255, 255, 0.687);
+              
+}
+.section-title{
+  font-size: 4vw;
+}
+.section-descript {
+  font-style: italic;
+}
+.about-content{
+  padding: 5%;
+  color: black;
+}
+.content-zone{
+  position: relative;
+  z-index: 1;
+  background-image: url("../Components/img/Patterns/Light/green_cup.png");
+  background-size: auto;
+  border: solid;
+  border-color: rgb(65, 64, 64);
+  border-width: 2px;
+  box-shadow: rgba(255, 255, 255, 0.4) 0px 0px 75px, 
+              inset rgba(0,0,0,1) 0px 0px 50px,
+              inset rgba(0,0,0,1) 0px 1px 2px,
+              inset rgba(0,0,0,1) 0px 1px 25px;
+  transition: box-shadow 1.5s ease-out, border-color 1.8s;
+}
+.content-zone:hover {
+  transition: box-shadow .3s ease-out, border-color .5s;
+  border-color: #7e7c7cc5;
+  box-shadow:rgb(255, 255, 255) 0px 0px 45px,
+  inset rgba(0, 0, 0, 0.719) 1px 1px 5px,
+  inset rgba(0, 0, 0, 0.719) -1px -1px 5px,
+  inset rgba(0, 0, 0, 0.61) 0px -5px 10px;
+}
+.content-zone-clicked {
+  transition: box-shadow .5s ease-out, border-color .8s;
+  border-color: #7e7c7cc5;
+  box-shadow:rgb(255, 255, 255) 0px 0px 45px,
+  inset rgba(0, 0, 0, 0.719) 1px 1px 5px,
+  inset rgba(0, 0, 0, 0.719) -1px -1px 5px,
+  inset rgba(0, 0, 0, 0.61) 0px -5px 10px;
+}
+.zoom-text {
+  justify-content: center;
+  transition: 1.5s;
+}
+.content-zone:hover > .zoom-text {
+  transition: .5s;
+  transform: scale(1.06);
+
+}
+.zoom-text-clicked {
+  position: relative;
+  z-index: 0;
+  transform: scale(1.06);
+}
+.about-text {
+  display: grid;
+  gap: 0;
+  text-align: center;
+  font-size: 1.2vw;
+}
+.cover-content{
+  height: 100vh;
+  background-image: url("../Components/img/Patterns/Dark/moulin_@2X.png");
+}
+.gold-head {
+  color: #fcca36;
+  font-variant: small-caps;
+  text-shadow: #000000 0px 1px 1px,
+  #000000 0px 1px 1px,
+  #000000 1px 2px 5px;
+}
+.logo > img {
+  background: url('../Components/img/Patterns/Light/leather_1_@2X.png');
+  /* width: fit-content; */
+  width: 7vw;
+  height: 7vw;
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.611) 1px 2px 15px,
+              rgba(0, 0, 0, 0.57) 0px 1px 10px,
+              rgba(0, 0, 0, 0.645) 0px 0px 5px,
+              rgb(252, 252, 252) 0px -3px 0px,
+              inset rgba(0,0,0,1) 0px 1px 5px;
+  padding: .5vw;
+  overflow: hidden;
+}
+.smaller {
+  transform: scale(.85);
+}
+.rubber3d {
+  background: url('../Components/img/Patterns/Dark/rubber_grip_@2X.png');
+  box-shadow: 0px -1px 25px white,
+              inset 0px 2px 3px rgba(17, 15, 15, 0.585),
+              inset 0px 4px 10px rgba(255, 255, 255, 0.222),
+              inset 0px -5px 10px black;
+  color: white;
+  text-shadow: 1px 2px 3px #000000,
+              0px 4px 6px white,
+              0px 6px 25px rgba(255, 255, 255, 0.687);
+}

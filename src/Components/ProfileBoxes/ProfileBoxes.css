@@ -1,0 +1,35 @@
+.profile {
+    display: grid;
+    /* padding-bottom: 5%; */
+}
+.wrapper {
+    display: grid;
+    margin-top: 2vw;
+    column-gap: 2.5vw;
+    row-gap: 5vw;
+    grid-template-columns: repeat(auto-fill, minmax(20vw, 1fr) );
+    /* grid-template-rows: repeat(); */
+}
+.profile-box {
+    font-size: 1.4vw;
+    cursor: default;
+    text-align: center;
+    color: #000000;
+    background-image: url("../img/Patterns/Light/green_cup.png");
+    padding: 8%;
+    border-width: 1px 1px;
+    transition: box-shadow 1s ease-out, border-color 1.5s;
+    /* box-shadow: rgba(255, 255, 255, 0.247) 0px 0px 20px, 
+                inset rgba(0,0,0,1) 0px 0px 50px,
+                inset rgba(0,0,0,1) 0px 0px 2px,
+                inset rgb(134, 134, 134) 0px 0px 35px; */
+}
+.profile-box-title {
+    font-size: 2vw;
+    /* padding: 1%; */
+    color: #fcca36;
+    font-variant: small-caps;
+    text-shadow: #000000 0px 1px 1px,
+    #000000 0px 1px 1px,
+    #000000 1px 2px 5px;
+}

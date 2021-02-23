@@ -1,0 +1,15 @@
+.projects-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5vw;
+}
+.project-title {
+    padding: 1vw;
+    font-size: 3vw;
+    /* height: 8vw; */
+}
+.proj-img {
+    height:10vw;
+    width:10vw;
+}
+

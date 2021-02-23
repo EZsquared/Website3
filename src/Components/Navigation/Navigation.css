@@ -1,0 +1,128 @@
+.zone {
+    border-right:1px solid #bbb;
+}
+.zone:hover {
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+.page-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    gap: 0;
+    margin-left: 18%;
+    height: fit-content;
+}
+/* ALL THINGS TO DO WITH THE SIDE NAVIGATION BLOCK */
+        .sidenav {
+            z-index: 1;
+            font-size: 2.5vw;
+            padding-top: 1.5%;
+            margin: 0;
+            background-image: url("../img/Patterns/Color/silver\ pattern.jpg");
+            background-size: cover;
+            position: fixed;
+            height: 100%;
+            width: 18%;
+            text-align: center;
+            font-variant: small-caps;
+            color: aliceblue;
+            transition: box-shadow 2s ease-out, text-shadow .9s linear, width .8s ease-out ;
+            box-shadow:rgba(255, 255, 255, 0.411) 0px 0px 45px;
+        }
+        .sidenav:hover {
+            transition: box-shadow .1s, text-shadow .4s linear, width .4s ease-out ;
+            width: 15%;
+            text-shadow: 1px 1px 1px #1d1c1c,
+            1px 2px 1px #919191,
+            1px 8px 6px rgba(16,16,16,0.4),
+            1px 9px 10px rgba(16,16,16,0.2);
+            box-shadow: rgb(16, 16, 16) 0px 5px 1px,
+                        rgb(16, 16, 16) 0px 5px 1px,
+                        rgba(255, 255, 255, 0.884) 0px 0px 25px,
+                        rgba(255, 255, 255, 0.685) 0px 1px 45px;
+        }
+        .img-zone {
+            cursor: zoom-in;
+            transition: transform 0.3s linear, border .5s;
+            padding: 3px;
+            border:1px solid #bbb;
+            background: rgba(187, 187, 187, 0.418);
+            border-radius:50%;
+            width: 80%;
+            height: auto;
+        }
+        .img-zone:hover {
+            background: rgba(187, 187, 187, 0.082);
+            border: 1px solid rgba(255, 255, 255, 0.116);
+            box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+            transform: scale(1.1);
+        }
+        .img-cont:active {
+            position: relative;
+            z-index: 1;
+            transition: none;
+            transform: scale(2.0) translate(22%, 27%);
+        }
+        .name-cont {
+            display: flex;
+            grid-template-columns: repeat(13, 1fr);
+            text-align: center;
+            font-size: 2.5vw;
+            padding-top: 5%;
+            justify-content: center;
+        }
+        .space-break {
+            padding-left: 5%;
+        }
+        .animate-letter {
+            cursor: crosshair;
+            transition: color .5s, transform 1.2s;
+            padding: .5%;
+        }
+        .animate-letter:hover {
+            color: #ffd000;
+            transform: scale(1.8);
+        }
+        .navtext {
+            display: grid;
+            padding: 0;
+            list-style: none;
+            margin: 0;
+        }
+        a {
+            color: aliceblue;
+            text-decoration: none;
+        }
+        .choices {
+            margin: 3%;
+            font-size: 1.5vw;
+        }
+        .choices > a:hover {
+
+            transition: .3s;
+            color: rgb(255, 217, 0);
+            font-size: 105%;
+            text-shadow: 1px 1px 1px #919191,
+                1px 8px 6px rgba(255, 255, 255, 0.4),
+                1px 9px 10px rgba(255, 252, 99, .3),
+                10px 15px 10px rgb(15, 15, 14);
+
+        }
+        .choice-container {
+            display:grid;
+            padding-top: 7%;
+        }
+        .descript-container {
+            padding-top: 3%;
+        }
+
+        .title-descript {
+            padding: 2%;
+            color: #ffd000;
+            font-size: .7em;
+            cursor:default;
+        }
+        .title-descript:hover {
+            color: aliceblue;
+        }
+

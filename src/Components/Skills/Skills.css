@@ -1,0 +1,79 @@
+
+.skills-wrapper {
+    display: grid;
+    gap: 3vw;
+}
+/* Container for skill bars */
+.progress-wrap {
+  display: grid;
+  width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
+  border-radius: 12px;
+  border: 1px solid rgba(0, 0, 0, 0.487);
+  box-shadow: 1px 1px 10px black
+}
+
+.progress {
+  margin: 0;
+  height: auto;
+  color: white; /* White text color */
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+  
+}
+
+.percent-num {
+    text-align: right; /* Right-align text */
+    padding: .3vw;
+    padding-right: 1vw;
+    /* font-size: 1.5vw; */
+    text-shadow: 1px 1px 2px black;
+    color: black;
+}
+.progBarWrap {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2vw;
+    padding: 3vw;
+}
+.skill {
+    /* padding: 1vw; */
+    font-size: 1.2vw;
+}
+.skills > ul {
+    text-align: left
+}
+
+
+
+
+
+
+
+
+
+
+/* COLORS  and PERCENTAGES*/
+.yellow {
+    width: 90%; background: 
+    /* On "top" */
+    repeating-linear-gradient(
+      35deg,
+      transparent,
+      transparent 10px,
+      rgb(226, 204, 147),
+      rgb(221, 214, 149) 20px
+    ),
+    /* on "bottom" */
+    linear-gradient(
+      to bottom,
+      rgb(255, 239, 119),
+      rgb(170, 111, 0)
+    );
+}
+.html {width: 35%;}
+.python {width: 40%;}
+.sql {width: 20%;}
+.js {width: 30%;}
+.cs {width: 30%;}
+
