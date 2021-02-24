@@ -1,0 +1,53 @@
+.body {
+    display:flex;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+}
+.CoverCard {
+    transition: .5s;
+    font-variant: small-caps;
+    perspective: 1000px;
+    transform-style: preserve-3d;
+    display: grid;
+    grid-template-rows: 1.5fr 1fr .5fr;
+    color:gold;
+    text-align: center;
+    background: url('../img/Patterns/Dark/rubber_grip_@2X.png');
+    width: auto;
+    height: auto;
+    padding: 2rem;
+    border-radius: 25px;
+    border: 1px solid rgba(164, 164, 164, 1);
+    box-shadow: 1px 1px 100px rgba(255, 255, 255, 0.386),
+                1px 1px 5px rgba(255, 255, 255, 0.4),
+                -1px -1px 5px rgba(255, 255, 255, 0.4),
+                inset 1px 5px 30px rgba(255, 255, 255, 0.4),
+                inset 1px 5px 10px rgba(255, 255, 255, 0.2);
+}
+
+.name-cont2 {
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(11, 1fr);
+    font-size: 3.5vw;
+    align-self: center;
+    justify-self: center;
+    /* background: rgb(247, 28, 28); */
+    height: fit-content;
+    margin: 1rem;
+
+}
+.card-container2 {
+    z-index: 1;
+    align-self: center;
+    margin: .5rem;
+    /* background: red; */
+}
+.covercard-subtext {
+    font-style: italic;
+}
+.cover-links{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
