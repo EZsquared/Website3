@@ -37,7 +37,7 @@
     color: white;
     display: grid;
     grid-template-columns: repeat(11, 1fr);
-    font-size: 3.5vw;
+    font-size: 4vh;
     align-self: center;
     justify-self: center;
     /* background: rgb(247, 28, 28); */
@@ -53,13 +53,14 @@
     /* background: red; */
 }
 .covercard-subtext {
+    font-size:2vh;
     font-style: italic;
     cursor: default;
 }
 .cover-links{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    font-size: 3.5vw;
+    font-size: 4vh;
     color: gold;
     /* text-shadow: 0px 2px 5px white; */
 }
