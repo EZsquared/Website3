@@ -29,7 +29,7 @@ function Skills() {
                                     <li>Operating System</li>
                                     <li>Office Suite</li>
                                     <li>Command Line</li>
-                                    <li>Operating System</li>
+                                    <li>VS Code</li>
                                 </ul>
                             </div>
                         </div>
@@ -40,10 +40,10 @@ function Skills() {
                             <div className="profile-box-title">Google Suite</div>
                             <div classNameName="profile-box-descript">
                                 <ul>
-                                    <li>Operating System</li>
-                                    <li>Office Suite</li>
-                                    <li>Command Line</li>
-                                    <li>Operating System</li>
+                                    <li>Docs / Sheets / Forms / etc.</li>
+                                    <li>GMail / Workspace</li>
+                                    <li>Cloud Platform</li>
+                                    <li></li>
                                 </ul>
                             </div>
                         </div>
@@ -54,65 +54,13 @@ function Skills() {
                             <div className="profile-box-title">Programming</div>
                             <div classNameName="profile-box-descript">
                                 <ul>
-                                    <li>Operating System</li>
-                                    <li>Office Suite</li>
-                                    <li>Command Line</li>
-                                    <li>Operating System</li>
+                                    <li>HTML / CSS</li>
+                                    <li>JS / REACT</li>
+                                    <li>Python</li>
+                                    <li>SQL</li>
                                 </ul>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div className="content-zone">
-                    <div className="zoom-text progBarWrap">
-                            <div className="skill">
-                                <h3>HTML / CSS</h3>
-                                <div className="progress-wrap">
-                                    <div className="progress yellow html">
-                                        <div className="percent-num">35%</div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="skill">
-                                <h3>Python</h3>
-                                <div className="progress-wrap">
-                                    <div className="progress yellow python">
-                                        <div className="percent-num">40%</div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="skill">
-                                <h3>SQL / Database</h3>
-                                <div className="progress-wrap">
-                                    <div className="progress yellow sql">
-                                        <div className="percent-num">20%</div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="skill">
-                                <h3>JavaScript / REACT</h3>
-                                <div className="progress-wrap">
-                                    <div className="progress yellow js">
-                                        <div className="percent-num">30%</div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="skill">
-                                <h3>Computer Science Studies</h3>
-                                <div className="progress-wrap">
-                                    <div className="progress yellow cs">
-                                        <div className="percent-num">30%</div>
-                                    </div>
-                                </div>
-                            </div>
-                            {/* <div className="skill">
-                                <h3>HTML / CSS</h3>
-                                <div className="progress-wrap">
-                                    <div className="progress html">
-                                        <div className="percent-num">90%</div>
-                                    </div>
-                                </div>
-                            </div> */}
                     </div>
                 </div>
             </div>

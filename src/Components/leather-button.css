@@ -39,7 +39,7 @@
 }
 .tooltip{
     justify-self: center;
-    transition: 3s;
+    transition: 1s;
     text-align: center;
     font-size: 1vw;
     opacity: 0;
@@ -55,6 +55,6 @@
 
 /* Show the tooltip text when you mouse over the tooltip container */
 .leather-button:hover .tooltip{
-    transition: 2s ease-in;
+    transition: 1s;
     opacity: 1;
 }

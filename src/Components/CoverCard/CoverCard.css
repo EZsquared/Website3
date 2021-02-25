@@ -5,27 +5,34 @@
     justify-items: center;
 }
 .CoverCard {
-    transition: .5s;
+    /* transition: .5s; */
     font-variant: small-caps;
-    perspective: 1000px;
+
     transform-style: preserve-3d;
     display: grid;
-    grid-template-rows: 1.5fr 1fr .5fr;
+    grid-template-rows: 1fr .7fr .5fr;
     color:gold;
     text-align: center;
     background: url('../img/Patterns/Dark/rubber_grip_@2X.png');
     width: auto;
     height: auto;
-    padding: 2rem;
+    padding: 1rem;
     border-radius: 25px;
-    border: 1px solid rgba(164, 164, 164, 1);
+    
     box-shadow: 1px 1px 100px rgba(255, 255, 255, 0.386),
+                1px 1px 5px rgba(255, 255, 255, 0.4),
+                -1px -1px 5px rgba(255, 255, 255, 0.4),
+                inset 1px 5px 10px rgba(255, 255, 255, 0.2);
+}
+.CoverCard:hover {
+    transition: 1s;
+    border: 1px solid rgba(164, 164, 164, 1);
+    box-shadow: 1px 1px 200px rgba(255, 255, 255, 0.686),
                 1px 1px 5px rgba(255, 255, 255, 0.4),
                 -1px -1px 5px rgba(255, 255, 255, 0.4),
                 inset 1px 5px 30px rgba(255, 255, 255, 0.4),
                 inset 1px 5px 10px rgba(255, 255, 255, 0.2);
 }
-
 .name-cont2 {
     color: white;
     display: grid;
@@ -42,12 +49,45 @@
     z-index: 1;
     align-self: center;
     margin: .5rem;
+    perspective: 1000px;
     /* background: red; */
 }
 .covercard-subtext {
     font-style: italic;
+    cursor: default;
 }
 .cover-links{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
+    font-size: 3.5vw;
+    color: gold;
+    /* text-shadow: 0px 2px 5px white; */
+}
+.tooltip-cover{
+    justify-self: center;
+    transition: .8s;
+    text-align: center;
+    font-size: 1.4vw;
+    opacity: 0;
+    width: auto;
+    background-color: rgba(0, 0, 0, 0.756);
+    color: #fff;
+    text-align: center;
+    margin-top: .8vh;
+    padding: .5vw;
+    border: 1px solid silver;
+    border-radius: 6px;
+    position: relative;
+    /* transform: translate(0vw, -15vw); */
+}
+
+.cover-link {
+    display: grid;
+    grid-template-columns: 1fr;
+    cursor:pointer;
+    color: gold;
+}
+.cover-link:hover .tooltip-cover{
+    transition: .5s;
+    opacity: 1;
 }

@@ -20,3 +20,13 @@ export function addListener(props) {
         item.addEventListener("click", setClicked);
     }
 }
+
+export function getLinks(choice) {
+    const link = document.getElementById(choice);
+    if(link){
+        link.addEventListener('click', () => {
+        console.log(this.state.choice);
+        })
+
+    }
+}

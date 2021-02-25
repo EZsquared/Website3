@@ -4,21 +4,44 @@ import CoverCard from '../CoverCard/CoverCard';
 import useSound from 'use-sound';
 import './Cover.css';
 import mySong from '../sounds/Eternal_Garden.mp3';
+import ReactHowler from 'react-howler'
 
-function Cover() {
-  const [songStatus, setSongStatus] = useState('paused');
-  const song = new Audio(mySong);
-  
-  
-  useEffect(() => {
-    const songButton = document.querySelector('.soundclick');
-    songButton.addEventListener('click', () => {
-      console.log(songStatus);
-      song.play();
-      setSongStatus('playing');
-  })
-  });
-  return (
+// const song = new Audio(mySong);
+
+class Cover extends React.Component {
+  // constructor (props) {
+  //   super(props)
+
+  //   this.state = {
+  //     playing: false
+  //   }
+  //   this.handlePlay = this.handlePlay.bind(this)
+  //   // this.handlePause = this.handlePause.bind(this)
+  // }
+
+  // handlePlay () {
+  //   const icon = document.getElementById('song-icon');
+  //   if (this.state.playing === false) {
+  //     icon.classList.remove('icon-mute');
+  //     this.setState({
+  //       playing: true
+  //       })
+  //     } else {
+  //       icon.classList.add('icon-mute');
+  //       this.setState({
+  //         playing: false
+  //       })
+  //     }
+  // }
+
+  // handlePause () {
+  //   this.setState({
+  //     playing: false
+  //   })
+  // }
+
+  render (){
+    return(
           <div class="cover-content">
             <Particles className="particles"
                 options={{
@@ -80,10 +103,9 @@ function Cover() {
                       }}
               /> 
             <CoverCard/>
-            <div className="icon-volume soundclick">
-
-            </div>
+            
           </div>
   )}
+}
 
   export default Cover;

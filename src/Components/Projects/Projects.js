@@ -1,9 +1,10 @@
 import React from 'react';
 import './Projects.css';
-import ghlogo from '../img/icons/GitHub-Mark.png'
-import ofilogo from '../img/icons/OFI_logo.png'
-import sllogo from '../img/icons/sololearn_logo3.png'
-import eulogo from '../img/icons/Esuplogo.png'
+import ghlogo from '../img/icons/GitHub-Mark.png';
+import ofilogo from '../img/icons/OFI_logo.png';
+import sllogo from '../img/icons/sololearn_logo3.png';
+import eulogo from '../img/icons/Esuplogo.png';
+import { Link } from 'react-router-dom';
 
 function Projects() {
     return (
@@ -60,6 +61,11 @@ function Projects() {
             </div>
           </div>
         </div>
+        <Link to='/'>
+          <div className="home-click">
+            <div id='song-icon'className="icon-home"></div>
+          </div>
+        </Link>
       </section>
     )}
   export default Projects;
