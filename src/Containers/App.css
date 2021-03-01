@@ -6,7 +6,7 @@
     font-style: normal; 
 }
 body {
-  font-size: 1.5vw;
+  font-size: 16px;
   background: url('../Components/img/Patterns/Dark/moulin_@2X.png');
 }
 
@@ -43,9 +43,9 @@ section {
   display: grid;
   font-variant: small-caps;
   justify-items: center;
-  margin-bottom: 8vw;
+  margin-bottom: 4vh;
   padding-top: .2vw;
-  padding-bottom: 2vw;
+  padding-bottom: 2vh;
   border-radius: 40px;
   color: white;
   text-shadow: 1px 2px 3px #000000,
@@ -54,10 +54,11 @@ section {
               
 }
 .section-title{
-  font-size: 4vw;
+  font-size: 3vh;
 }
 .section-descript {
   font-style: italic;
+  font-size: 1.5vh;
 }
 .about-content{
   padding: 5%;
@@ -158,8 +159,8 @@ section {
 .home-click {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  align-items: center;
-  font-size: 2.5vw;
+  text-align: center;
+  font-size: 3vh;
   width: auto;
   height: 3vh;
   z-index: 2;

@@ -9,19 +9,20 @@
         .sidenav {
             border-right:1px solid #bbb;
             z-index: 1;
-            font-size: 2.5vw;
+            font-size: 3vh;
             padding-top: 1.5%;
             margin: 0;
             background-image: url("../img/Patterns/Color/silver\ pattern.jpg");
             background-size: cover;
             position: fixed;
             height: 100%;
-            width: 19%;
+            width: 20%;
             text-align: center;
             font-variant: small-caps;
             color: aliceblue;
             transition: box-shadow 2s ease-out, text-shadow .9s linear, width .8s ease-out ;
             box-shadow:rgba(255, 255, 255, 0.411) 0px 0px 45px;
+            /* overflow:scroll; */
         }
         .sidenav:hover {
             transition: box-shadow .1s, text-shadow .4s linear, width .4s ease-out ;
@@ -41,8 +42,8 @@
             border:1px solid #bbb;
             background: rgba(187, 187, 187, 0.418);
             border-radius:50%;
+            height: autp;
             width: 80%;
-            height: auto;
         }
         .img-zone:hover {
             background: rgba(187, 187, 187, 0.082);
@@ -52,7 +53,7 @@
         }
         .img-cont:active {
             position: relative;
-            z-index: 1;
+            z-index: 2;
             transition: none;
             transform: scale(2.0) translate(22%, 27%);
         }
@@ -60,7 +61,7 @@
             display: flex;
             grid-template-columns: repeat(13, 1fr);
             text-align: center;
-            font-size: 2.5vw;
+            font-size: 2vw;
             padding-top: 5%;
             justify-content: center;
         }
@@ -89,18 +90,16 @@
         }
         .choices {
             margin: 3%;
-            font-size: 1.5vw;
+            font-size: 2vh;
         }
         .choices > a:hover {
 
             transition: .3s;
             color: rgb(255, 217, 0);
-            font-size: 105%;
             text-shadow: 1px 1px 1px #919191,
                 1px 8px 6px rgba(255, 255, 255, 0.4),
                 1px 9px 10px rgba(255, 252, 99, .3),
                 10px 15px 10px rgb(15, 15, 14);
-
         }
         .home {
             margin-top: 8vh;
@@ -116,7 +115,7 @@
         .title-descript {
             padding: 2%;
             color: #ffd000;
-            font-size: .7em;
+            font-size: 1.8vw;
             cursor:default;
         }
         .title-descript:hover {
