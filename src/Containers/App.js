@@ -45,9 +45,16 @@ class App extends React.Component {
           <Route path="/projects" component={Projects}/>
 
         </Switch>
-      <div className="soundClick" onClick={this.handlePlay} >
-              <ReactHowler src={mySong} volume={.1} playing={this.state.playing} loop={true}/>
-              <div id='song-icon'className="icon-media-pause-outline icon-media-play-outline"></div>
+      <div className="home-click">
+              <div id='song-icon'className="home-nav-icon icon-media-pause-outline icon-media-play-outline"  onClick={this.handlePlay} >
+                 <ReactHowler src={mySong} volume={.1} playing={this.state.playing} loop={true}/>
+              </div>
+              <div>
+                <Link to='/'>
+                    <div id='home-icon' className="icon-home"></div>
+                </Link>
+              </div>
+
             </div>
     </div>
       

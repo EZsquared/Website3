@@ -29,11 +29,6 @@ function Profile (){
             <Experience/>
           </div>
         </div>
-        <Link to='/'>
-          <div className="home-click">
-            <div id='song-icon'className="icon-home"></div>
-          </div>
-        </Link>
       </div>
     );
   }

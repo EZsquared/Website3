@@ -61,11 +61,6 @@ function Projects() {
             </div>
           </div>
         </div>
-        <Link to='/'>
-          <div className="home-click">
-            <div id='song-icon'className="icon-home"></div>
-          </div>
-        </Link>
       </section>
     )}
   export default Projects;

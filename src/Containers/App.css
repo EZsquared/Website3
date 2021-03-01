@@ -154,55 +154,26 @@ section {
               0px 4px 6px white,
               0px 6px 25px rgba(255, 255, 255, 0.687);
 }
-.soundclick {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 5vh;
-  width:5rem;
-  height: 5rem;
+
+.home-click {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: ;
+  font-size: 3.5vw;
+  width: auto;
+  height: 4vh;
   z-index: 2;
+  gap: 1.5vw;
   /* background:blue; */
   position: fixed;
   bottom: 0;
   left: 0;
-  padding: 2vh;
+  padding: 1.5vw;
+
   /* margin: 2vh; */
-  color: rgba(255, 255, 255, 0.461);
-
-  transition: 1s;
-}
-.soundclick:hover {
-  /* transition: border-radius .2s; */
-  border-radius: 50%;
+  color: rgb(255, 255, 255);
+  border-radius: 15px;
   border: 1px solid silver;
-  background: rgba(255, 255, 255, 0.126);
-
-  color: rgba(255, 255, 255, 0.79);
-}
-.home-click {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 5vh;
-  width:5rem;
-  height: 5rem;
-  z-index: 2;
-  /* background:blue; */
-  position: fixed;
-  bottom: 8rem;
-  left: 0;
-  padding: 2vh;
-  /* margin: 2vh; */
-  color: rgba(255, 255, 255, 0.461);
-
+  background: rgba(0, 0, 0, 0.475);
   transition: 1s;
-}
-.home-click:hover {
-  /* transition: border-radius .2s; */
-  border-radius: 50%;
-  border: 1px solid silver;
-  background: rgba(255, 255, 255, 0.126);
-
-  color: rgba(255, 255, 255, 0.79);
 }
