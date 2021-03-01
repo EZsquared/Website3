@@ -19,9 +19,9 @@ function Profile (){
   })
   
     return (
-      <div class="Profile">
+      <div className="Profile">
         <Navigation/>
-        <div class="main-container">
+        <div className="main-container">
           <div className="main-content">
             <AboutMe/>
             <Skills/>

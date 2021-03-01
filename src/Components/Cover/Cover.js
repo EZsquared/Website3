@@ -42,7 +42,7 @@ class Cover extends React.Component {
 
   render (){
     return(
-          <div class="cover-content">
+          <div className="cover-content">
             <Particles className="particles"
                 options={{
                   backgroundMode: {

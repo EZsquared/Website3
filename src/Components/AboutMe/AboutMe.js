@@ -2,14 +2,14 @@ import React from 'react';
 
 function AboutMe() {
   return (
-    <section class="about" id="about">
-        <div class="section-header rubber3d">
-          <div class="section-title">About</div>
-          <div class="section-descript">My Background</div>
+    <section className="about" id="about">
+        <div className="section-header rubber3d">
+          <div className="section-title">About</div>
+          <div className="section-descript">My Background</div>
         </div>
-        <div class="about-content content-zone">
-          <div class="about-text zoom-text ">
-            <div class="icon icon-bulb leather-button"><span class="tooltip">Grab</span></div>
+        <div className="about-content content-zone">
+          <div className="about-text zoom-text ">
+            <div className="icon icon-bulb leather-button"><span className="tooltip">Grab</span></div>
             <p>I have been employed consistently since I was 14 years old. My first few years were spent working my way from Dishwasher to Assistant Chef. I then used that experience to roll into Deli Customer Service and eventually Quick Service Restaurant Management. Since then, that has been my typical track record; gaining a position at a company and <strong>working my way to the top</strong> through dedication, detail-focused work, and exceptional Customer Service. I continued to go to school throughout all of my early work experience, gaining new skills and concepts that expedited my rise at my workplaces.
             </p>
             <p>After I received a Bachelor’s in Business Administration with concentrations in both Human Resources and Marketing, I turned my attention to a specialized education in Golf and Sports Complex Revenue Management. I thoroughly enjoyed my path and quickly got started at a Semi-Private golf course. I taught juniors and gave lessons as a Golf Professional for a few years. By the end, I had worked my way from Range Picker to <strong>Account Manager, Director of Golf and only non-owner Signatory on a $2M revenue checking account</strong>. I used this time to discover the ins and outs of Accounts Payable/Receivable, Contract Negotiation, and exceptional Customer Service, both B2C and B2B.

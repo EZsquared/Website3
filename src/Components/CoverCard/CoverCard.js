@@ -45,28 +45,28 @@ function CoverCard() {
     return (
       <div className="card-container2">
         <div className="CoverCard">
-            <div class="name-cont2">
-                <div class="animate-letter">E</div>
-                <div class="animate-letter">r</div>
-                <div class="animate-letter">i</div>
-                <div class="animate-letter">c</div>
-                <div class="space-break"></div>
-                <div class="animate-letter">C</div>
-                <div class="animate-letter">a</div>
-                <div class="animate-letter">n</div>
-                <div class="animate-letter">n</div>
-                <div class="animate-letter">o</div>
-                <div class="animate-letter">n</div>
+            <div className="name-cont2">
+                <div className="animate-letter">E</div>
+                <div className="animate-letter">r</div>
+                <div className="animate-letter">i</div>
+                <div className="animate-letter">c</div>
+                <div className="space-break"></div>
+                <div className="animate-letter">C</div>
+                <div className="animate-letter">a</div>
+                <div className="animate-letter">n</div>
+                <div className="animate-letter">n</div>
+                <div className="animate-letter">o</div>
+                <div className="animate-letter">n</div>
               </div>
-            <div class= "covercard-subtext">
+            <div className= "covercard-subtext">
                 Business Administrator turned Software Developer
             </div>
             <div className="cover-links">
-              <Link to='/profile' ><div className="cover-link icon-user-outline"><span class="tooltip-cover">Profile</span></div></Link>
-              <Link to='/projects' ><div className="cover-link icon-folder"><span class="tooltip-cover">Projects</span></div></Link>
-              <a href='https://www.linkedin.com/in/eric-cannon-72437b61/' target="_blank" ><div className="cover-link linked icon-social-linkedin"><span class="tooltip-cover">LinkedIn</span></div></a>
-              <a href='../downloads/EricCannonResume2020.zip' download><div className="cover-link icon-download"><span class="tooltip-cover">Resume</span></div></a>
-              <a href='mailto:ericcannon01@gmail.com' target="_blank" ><div className="cover-link icon-mail"><span class="tooltip-cover">Contact</span></div></a>
+              <Link to='/profile' ><div className="cover-link icon-user-outline"><span className="tooltip-cover">Profile</span></div></Link>
+              <Link to='/projects' ><div className="cover-link icon-folder"><span className="tooltip-cover">Projects</span></div></Link>
+              <a href='https://www.linkedin.com/in/eric-cannon-72437b61/' target="_blank" ><div className="cover-link linked icon-social-linkedin"><span className="tooltip-cover">LinkedIn</span></div></a>
+              <a href='../downloads/EricCannonResume2020.zip' download><div className="cover-link icon-download"><span className="tooltip-cover">Resume</span></div></a>
+              <a href='mailto:ericcannon01@gmail.com' target="_blank" ><div className="cover-link icon-mail"><span className="tooltip-cover">Contact</span></div></a>
             </div>
             
         </div>

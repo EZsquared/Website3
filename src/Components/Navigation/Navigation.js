@@ -7,32 +7,32 @@ import { Link } from 'react-router-dom';
 class Navigation extends React.Component {
   render() {
     return (
-        <nav class="zone sidenav sticky">
+        <nav className="zone sidenav sticky">
             <NavPicture/>
-            <div class="name-cont">
-              <div class="animate-letter">E</div>
-              <div class="animate-letter">r</div>
-              <div class="animate-letter">i</div>
-              <div class="animate-letter">c</div>
-              <div class="space-break"></div>
-              <div class="animate-letter">C</div>
-              <div class="animate-letter">a</div>
-              <div class="animate-letter">n</div>
-              <div class="animate-letter">n</div>
-              <div class="animate-letter">o</div>
-              <div class="animate-letter">n</div>
+            <div className="name-cont">
+              <div className="animate-letter">E</div>
+              <div className="animate-letter">r</div>
+              <div className="animate-letter">i</div>
+              <div className="animate-letter">c</div>
+              <div className="space-break"></div>
+              <div className="animate-letter">C</div>
+              <div className="animate-letter">a</div>
+              <div className="animate-letter">n</div>
+              <div className="animate-letter">n</div>
+              <div className="animate-letter">o</div>
+              <div className="animate-letter">n</div>
             </div>
-            <div class= "navtext descript-container">
-                <div class="title-descript">Junior Developer</div>
-                <div class="title-descript">Management & Facilitation</div>
+            <div className= "navtext descript-container">
+                <div className="title-descript">Junior Developer</div>
+                <div className="title-descript">Management & Facilitation</div>
             </div>
-            <ul class="navtext choice-container">
-              <li class= "choices"><a href="#about">About</a></li>
-              <li class= "choices"><a href="#skills">Skills</a></li>
-              <li class="choices"><a href="#education">Education</a></li>
-              <li class= "choices"><a href="#experience">Experience</a></li>
+            <ul className="navtext choice-container">
+              <li className= "choices"><a href="#about">About</a></li>
+              <li className= "choices"><a href="#skills">Skills</a></li>
+              <li className="choices"><a href="#education">Education</a></li>
+              <li className= "choices"><a href="#experience">Experience</a></li>
             </ul>
-            <div class="choices home" id='home'>
+            <div className="choices home" id='home'>
             </div>
         </nav>
 

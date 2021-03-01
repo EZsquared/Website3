@@ -5,9 +5,9 @@ import Logo from '../img/me-atcomp-polished.png';
 
 function NavPicture() {
     return (
-      <div class="NavPicture">
-        <div class="img-cont">
-            <img class="img-zone" src={Logo} />
+      <div className="NavPicture">
+        <div className="img-cont">
+            <img className="img-zone" src={Logo} />
         </div>
       </div>
     );

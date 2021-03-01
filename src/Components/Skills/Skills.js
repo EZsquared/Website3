@@ -24,12 +24,12 @@ function Skills() {
                             <div className="profile-box-title">Windows Suite</div>
                             <div classNameName="profile-box-descript">
                                 <ul>
-                                    <li><input type="checkbox" checked />System Installations</li>
-                                    <li><input type="checkbox" checked />
+                                    <li><input type="checkbox" defaultChecked />System Installations</li>
+                                    <li><input type="checkbox" defaultChecked />
                                         Office Apps</li>
-                                    <li><input type="checkbox" checked />
+                                    <li><input type="checkbox" defaultChecked />
                                         Command Line</li>
-                                    <li><input type="checkbox" checked />
+                                    <li><input type="checkbox" defaultChecked />
                                         VS Code</li>
                                 </ul>
                             </div>
@@ -41,11 +41,11 @@ function Skills() {
                             <div className="profile-box-title">Google Suite</div>
                             <div classNameName="profile-box-descript">
                                 <ul>
-                                    <li><input type="checkbox" checked />
+                                    <li><input type="checkbox" defaultChecked />
                                         Google Drive Apps</li>
-                                    <li><input type="checkbox" checked />
+                                    <li><input type="checkbox" defaultChecked />
                                         GMail / Workspace</li>
-                                    <li><input type="checkbox" checked />
+                                    <li><input type="checkbox" defaultChecked />
                                         Google Cloud Platform</li>
                                     <li></li>
                                 </ul>
@@ -58,15 +58,15 @@ function Skills() {
                             <div className="profile-box-title">Programming</div>
                             <div classNameName="profile-box-descript">
                                 <ul>
-                                    <li><input type="checkbox" checked />
+                                    <li><input type="checkbox" defaultChecked readOnly/>
                                         Python</li>
-                                    <li><input type="checkbox" checked />
+                                    <li><input type="checkbox" defaultChecked />
                                         HTML / CSS</li>
-                                    <li><input type="checkbox" checked />
+                                    <li><input type="checkbox" defaultChecked />
                                         REACT</li>
-                                    <li><input type="checkbox" unchecked/>
+                                    <li><input type="checkbox" />
                                         JavaScript</li>
-                                    <li><input type="checkbox" unchecked/>
+                                    <li><input type="checkbox"/>
                                         SQL</li>
                                 </ul>
                             </div>
