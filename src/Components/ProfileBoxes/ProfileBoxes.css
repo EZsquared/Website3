@@ -11,9 +11,8 @@
     /* grid-template-rows: repeat(); */
 }
 .profile-box {
-    font-size: 1.4vw;
+    /* font-size: 1.4vw; */
     cursor: default;
-    text-align: center;
     color: #000000;
     background-image: url("../img/Patterns/Light/green_cup.png");
     padding: 8%;

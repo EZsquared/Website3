@@ -13,9 +13,7 @@ function Skills() {
                 <div className="skills-content about-content content-zone">
                     <div className="about-text zoom-text ">
                         <div className="icon icon-bulb leather-button"><span className="tooltip">Grab</span></div>
-                        <p>In addition to my <strong>Business Qualifications</strong>, I continue to pick up new skills and compentencies. I absolutely love absorbing myself into something new and interesting. 
-                        While lacking a CS degree, I have recently started my journey to learn the basics of Computer Science, as I work my way through the <strong>Python Programming Language</strong>. 
-                        I do have a basic understanding of front-end languages like <strong>HTML, CSS, JS,</strong> but only contextually as it applies to modifying existing code. 
+                        <p>I continue to pick up new skills and compentencies. I absolutely love absorbing myself into something new and interesting.
                         I intend to keep learning towards a goal of <strong>Full Stack Knowledge</strong>. Here you can track my progess through these skills. </p>
                     </div>
                 </div>
@@ -26,10 +24,13 @@ function Skills() {
                             <div className="profile-box-title">Windows Suite</div>
                             <div classNameName="profile-box-descript">
                                 <ul>
-                                    <li>Operating System</li>
-                                    <li>Office Suite</li>
-                                    <li>Command Line</li>
-                                    <li>VS Code</li>
+                                    <li><input type="checkbox" checked />System Installations</li>
+                                    <li><input type="checkbox" checked />
+                                        Office Apps</li>
+                                    <li><input type="checkbox" checked />
+                                        Command Line</li>
+                                    <li><input type="checkbox" checked />
+                                        VS Code</li>
                                 </ul>
                             </div>
                         </div>
@@ -40,9 +41,12 @@ function Skills() {
                             <div className="profile-box-title">Google Suite</div>
                             <div classNameName="profile-box-descript">
                                 <ul>
-                                    <li>Docs / Sheets / Forms / etc.</li>
-                                    <li>GMail / Workspace</li>
-                                    <li>Cloud Platform</li>
+                                    <li><input type="checkbox" checked />
+                                        Google Drive Apps</li>
+                                    <li><input type="checkbox" checked />
+                                        GMail / Workspace</li>
+                                    <li><input type="checkbox" checked />
+                                        Google Cloud Platform</li>
                                     <li></li>
                                 </ul>
                             </div>
@@ -54,10 +58,16 @@ function Skills() {
                             <div className="profile-box-title">Programming</div>
                             <div classNameName="profile-box-descript">
                                 <ul>
-                                    <li>HTML / CSS</li>
-                                    <li>JS / REACT</li>
-                                    <li>Python</li>
-                                    <li>SQL</li>
+                                    <li><input type="checkbox" checked />
+                                        Python</li>
+                                    <li><input type="checkbox" checked />
+                                        HTML / CSS</li>
+                                    <li><input type="checkbox" checked />
+                                        REACT</li>
+                                    <li><input type="checkbox" unchecked/>
+                                        JavaScript</li>
+                                    <li><input type="checkbox" unchecked/>
+                                        SQL</li>
                                 </ul>
                             </div>
                         </div>
