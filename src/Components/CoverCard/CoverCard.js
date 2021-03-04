@@ -59,7 +59,7 @@ function CoverCard() {
                 <div className="animate-letter">n</div>
               </div>
             <div className= "covercard-subtext">
-                Business Administrator turned Software Developer
+                Software Developer
             </div>
             <div className="cover-links">
               <Link to='/profile' ><div className="cover-link icon-user-outline"><span className="tooltip-cover">Profile</span></div></Link>
