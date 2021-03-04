@@ -5,6 +5,7 @@ import gaalogo from '../img/icons/gaalogo2.png';
 import sunylogo from '../img/icons/sunylogo.png';
 import dutchlogo from '../img/icons/dutchlogo2.png';
 import bslogo from '../img/icons/boyscoutslogo.png';
+import ztmlogo from '../img/icons/ztm-icon.png';
 import './Education.css';
 
 function Education() {
@@ -17,6 +18,30 @@ function Education() {
         <div className="education-wrapper">
           <div className="certs-education-wrapper"><div class="sub-cat"> Courses & Certificates</div>
             <div className="content-zone education-slot">
+                <div className="earned zoom-text float-card">
+                  <div className="earned-title gold-head">Web Development</div>
+                  HTML / CSS / JS
+                </div>
+                <div className="subjects zoom-text float-card">
+                  <ul>
+                    <li>HTML Tags</li>
+                    <li>Cascading Style Sheets</li>
+                    <li>EcmaScript</li>
+                    <li>REACT.js</li>
+                    <li>Node.js & NPM</li>
+                    <li>API Calls and Creation</li>
+                  </ul>
+                </div>
+                <div className="logo school-wrapper zoom-text float-card">
+                  <img src={ztmlogo}/>
+                  <div>
+                    <div className="school gold-head">Zero to Mastery Academy</div>
+                    <div className="location">Udemy.com</div>
+                  </div>
+                  <div className="school-year">2021</div>
+                </div>
+              </div>
+            <div className="content-zone education-slot">
               <div className="earned zoom-text float-card">
                 <div className="earned-title gold-head">IT Automation</div>
                 with Python
@@ -24,7 +49,7 @@ function Education() {
               <div className="subjects zoom-text float-card">
                 <ul>
                   <li>Crash Course on Python</li>
-                  <li>Using Pythong to Interact with the Operating System</li>
+                  <li>Using Python to Interact with the Operating System</li>
                   <li>Introduction to Git and GitHub</li>
                   <li>Troubleshooting and Debugging Techniques</li>
                   <li>Configuration Management and the Cloud</li>
