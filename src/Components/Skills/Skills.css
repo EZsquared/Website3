@@ -16,4 +16,6 @@ input[type=checkbox] {
   box-shadow: 1px 1px 5px black;
   margin: 8px;
 }
-
+ p {
+   font-size: 1.6vw;
+ }

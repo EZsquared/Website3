@@ -13,7 +13,7 @@ function Skills() {
                 <div className="skills-content about-content content-zone">
                     <div className="about-text zoom-text ">
                         <div className="icon icon-bulb leather-button"><span className="tooltip">Grab</span></div>
-                        <h2 className="">Technology Exposure</h2>
+                        <div className="profile-box-title">Technology Exposure</div>
                         <p>Hard to believe where this all started in 2020. It's been such a journey. I continue to pick up new skills and compentencies. I absolutely love absorbing myself into something new and interesting.
                         I intend to keep learning towards a goal of <strong>Full Stack Knowledge</strong>. Here you can track my progess through these skills. </p>
                     </div>

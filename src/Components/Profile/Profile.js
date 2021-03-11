@@ -9,7 +9,6 @@ import AboutMe from '../AboutMe/AboutMe';
 import Skills from '../Skills/Skills';
 import Education from '../Education/Education';
 import Experience from '../Experience/Experience';
-import { Link } from 'react-router-dom';
 
 
 function Profile (){
@@ -24,8 +23,6 @@ function Profile (){
         <div className="main-container">
           <div className="main-content">
             <Skills/>
-            
-
             <Education/>
             <Experience/>
             <AboutMe/>
