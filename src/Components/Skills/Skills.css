@@ -12,8 +12,8 @@
     font-size: 1.5vw;
 }
 input[type=checkbox] {
-  color: red;
-  margin-right: 1vw;
-  transform: scale(1.2);
   pointer-events: none;
+  box-shadow: 1px 1px 5px black;
+  margin: 8px;
 }
+

@@ -62,7 +62,7 @@ function Education() {
                   <div className="school gold-head">Google Certification</div>
                   <div className="location">Coursera.org</div>
                 </div>
-                <div className="school-year">2021</div>
+                <div className="school-year">2020</div>
               </div>
             </div>
             <div className="content-zone education-slot">

@@ -23,10 +23,12 @@ function Profile (){
         <Navigation/>
         <div className="main-container">
           <div className="main-content">
-            <AboutMe/>
             <Skills/>
+            
+
             <Education/>
             <Experience/>
+            <AboutMe/>
           </div>
         </div>
       </div>

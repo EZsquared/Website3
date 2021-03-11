@@ -27,10 +27,11 @@ class Navigation extends React.Component {
                 <div className="title-descript">Management & Facilitation</div>
             </div>
             <ul className="navtext choice-container">
-              <li className= "choices"><a href="#about">About</a></li>
+              
               <li className= "choices"><a href="#skills">Skills</a></li>
               <li className="choices"><a href="#education">Education</a></li>
               <li className= "choices"><a href="#experience">Experience</a></li>
+              <li className= "choices"><a href="#about">About</a></li>
             </ul>
             <div className="choices home" id='home'>
             </div>
