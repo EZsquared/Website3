@@ -14,8 +14,9 @@ function Skills() {
                     <div className="about-text zoom-text ">
                         <div className="icon icon-bulb leather-button"><span className="tooltip">Grab</span></div>
                         <div className="profile-box-title">Technology Exposure</div>
+                        <p>I fell in love with Programming. I have utilized at hand resources to teach myself the start of web development. I didn’t have the means to attend additional schooling or a bootcamp, so I got to work outlining the subjects I would need to learn to have a comparable education to those finishing a few month bootcamp. I got started with a comprehensive Python tutorial for my Object Oriented Programming Concepts(Back-End). I then tracked down courses on Coursera and Udemy that looked like they would provide the other needed Front-End Languages and Frameworks like HTML, CSS and of course Javascript.
                         <p>Hard to believe where this all started in 2020. It's been such a journey. I continue to pick up new skills and compentencies. I absolutely love absorbing myself into something new and interesting.
-                        I intend to keep learning towards a goal of <strong>Full Stack Knowledge</strong>. Here you can track my progess through these skills. </p>
+                        I intend to keep learning towards a goal of <strong>Full Stack Knowledge</strong>. Here you can track my progess through these skills. </p></p>
                     </div>
                 </div>
                 <div className="wrapper">
