@@ -24,7 +24,7 @@ function Experience() {
               </div>
             </div>
             <div className="position zoom-text">
-              <div className="position-title">Outside Services Manager
+              <div className="position-title">Outside Services Supervisor
               <div className="position-date">August 2020 - Current</div></div>
                 <ul>
                   <li>Oversee, manage, schedule, train, and assist the Outside Service Assistants to maintain and exceed guest servies and satisfaction, while maximizing operational KPI’s.</li>
@@ -43,7 +43,7 @@ function Experience() {
             </div>
             <div className="position zoom-text">
               <div className="position-title">Business Development Partner
-              <div className="position-date">August 2008 - January 2010</div></div>
+              <div className="position-date">June 2019 – May 2020</div></div>
                 <ul>
                   <li>Entrepreneurial endeavor with associate to establish a premium name in professional glass pool tiling and repair.</li>
                 </ul>
@@ -120,7 +120,7 @@ function Experience() {
                   <li>Ensured efficient resolutions to issues at hand.</li>
                 </ul>
               <div className="position-title">Pizza Chef
-              <div className="position-date">August 2008 - January 2010</div></div>
+              <div className="position-date">August 2006 - January 2010</div></div>
                 <ul>
                   <li>Learned to craft quality NY Style Pizza with consistent premium standards. </li>
                   <li>Experience with busy, stacked-tickets, pressure situations.</li>
