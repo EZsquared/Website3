@@ -25,7 +25,7 @@ function Experience() {
             </div>
             <div className="position zoom-text">
               <div className="position-title">Outside Services Manager
-              <div className="position-date">August 2008 - January 2010</div></div>
+              <div className="position-date">August 2020 - Current</div></div>
                 <ul>
                   <li>Oversee, manage, schedule, train, and assist the Outside Service Assistants to maintain and exceed guest servies and satisfaction, while maximizing operational KPI’s.</li>
                 </ul>
